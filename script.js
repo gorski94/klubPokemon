@@ -2,7 +2,7 @@ function Position(){
    var zakladeczka = document.getElementById('Zakladeczka');
    zakladeczka.addEventListener('click', OnZakladeczkaClick);
 
-    var ustawienieOkna = document.getElementById('middle-buttons');
+    var ustawienieOkna = document.getElementById('panelButton');
     var szerokoscOkna = window.innerWidth;
     var wysokoscOkna = window.innerHeight;
 
