@@ -55,26 +55,28 @@ body
 	padding-right:10px;
 }
 
-.middle-buttons
+
+#middle-buttons
 {
-	background:white;
-	height:200px;
-	width:500px;
-	margin:200px auto;
+	position: absolute;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    padding: 10px 20px;
 }
 
-.middle-buttons .up 
+#middle-buttons .up 
 {
 	height:50%;
 }
-.middle-buttons .up .left 
+#middle-buttons .up .left 
 {	
 	float:left;
 	background:yellow;
 	width:50%;
 	height:100%;
 }
-.middle-buttons .up .right 
+#middle-buttons .up .right 
 {	
 	float:right;
 	background:red;
@@ -82,19 +84,19 @@ body
 	height:100%;
 }
 
-.middle-buttons .down 
+#middle-buttons .down 
 {
 	height:50%;
 }
 
-.middle-buttons .down .left 
+#middle-buttons .down .left 
 {	
 	float:left;
 	background:red;
 	width:50%;
 	height:100%;
 }
-.middle-buttons .down .right 
+#middle-buttons .down .right 
 {	
 	float:right;
 	background:blue;
