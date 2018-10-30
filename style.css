@@ -43,7 +43,8 @@ body
 
 .tabbar a:hover
 {
-	background:#baae46;
+  background:#baae46;
+  cursor: pointer;
 }
 
 .tabbar a
