@@ -1,6 +1,9 @@
 function Position(){
    var zakladeczka = document.getElementById('Zakladeczka');
    zakladeczka.addEventListener('click', OnZakladeczkaClick);
+   
+   var teamMystic = document.getElementById('mystic');
+    teamMystic.addEventListener('click', OnMysticClick);
 
     var ustawienieOkna = document.getElementById('middle-buttons');
     var szerokoscOkna = window.innerWidth;
@@ -15,4 +18,11 @@ function Position(){
 function OnZakladeczkaClick(){  
   document.getElementById("content").innerHTML = '';
   document.getElementById("content").innerHTML='<object type="text/html" data="tabelka.html" ></object>';
+  
+}
+
+function OnMysticClick(){
+	
+	document.getElementById("content").innerHTML = '';
+	document.getElementById("content").innerHTML='<object type="text/html" data="mystic.html" ></object>';
 }
